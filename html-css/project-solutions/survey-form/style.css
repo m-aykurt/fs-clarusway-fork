@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   color: white;
   background-image: url(./images/netflix-background-image.jpg);
@@ -76,4 +80,19 @@ span {
   width: 160px;
   margin: auto;
   margin-top: 15px;
+}
+
+
+@media (max-width: 768px) {
+  html {
+    font-size: 0.5rem;
+  }
+  body {
+    background-image: url(https://picsum.photos/200/300);
+    color: white;
+  }
+  span {
+    color: unset;
+  }
+
 }
