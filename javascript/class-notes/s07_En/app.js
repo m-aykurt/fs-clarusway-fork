@@ -1,67 +1,67 @@
-/* sayHi()
+// sayHi()
 
-function sayHi() {
-    console.log('inside sayHi function')
-    return 'Hello'
-}
-console.log(sayHi()) */
+// function sayHi() {
+//     console.log('inside sayHi function')
+//     return 'Hello'
+// }
+// console.log(sayHi()) 
 
-/* function sayHi(name) {
+// function sayHi(name) {
   
-  name = 'Jhon';
-  console.log(name);
-  console.log(`Hello! ${name}`);
-}
+//   name = 'John';
+//   console.log(name);
+//   console.log(`Hello! ${name}`);
+// }
 
-let myName = 'Leon';
-sayHi(myName);
-console.log(myName);
- */
+// let myName = 'Leon';
+// sayHi(myName);
+// console.log(myName);
 
-/* let student = {name: "Leon"}
 
-function sayHi2(student) {
-  console.log(`Hello! ${student.name}`);
-  student.name = 'John';
-  student = {name: "Bart"}
-  console.log(student.name);
-}
-sayHi2(student);
-console.log(student.name); */
+//  let student = {name: "Leon"}
 
-/* function sum(a, b) {
-    return a + b;
-}
+// function sayHi2(student) {
+//   console.log(`Hello! ${student.name}`);
+//   student.name = 'John';
+//   student = {name: "Bart"}
+//   console.log(student.name);
+// }
+// sayHi2(student);
+// console.log(student.name); 
 
-function addTwo(number) {
-    return sum(parseInt(number), 2);
-}
+//  function sum(a, b) {
+//     return a + b;
+// }
 
-console.log(addTwo("5")); */
+// function addTwo(number) {
+//     return sum(Number(number), 2);
+// }
 
-/* function div(num1, num2) {
-    if (num2 === 0)  {
-        return "Zero divition error"
-    }
-    return num1 / num2
+// console.log(addTwo("5")); 
+
+// function div(num1, num2) {
+//     if (num2 === 0)  {
+//         return "Zero divition error"
+//     }
+//     return num1 / num2
     
-}
+// }
 
-function div2(num1, num2) {
-    return num2 === 0 ? "Zero divition error"  : num1 / num2
-    // return num2 ? num1 / num2 : 'Zero divition error';
-}
+// function div2(num1, num2) {
+//     return num2 === 0 ? "Zero divition error"  : num1 / num2
+//     // return num2 ? num1 / num2 : 'Zero divition error';
+// }
 
 
-console.log(div(3,2))
-console.log(div2(3,0))
+// console.log(div(3,2))
+// console.log(div2(3,0))
 
-const div3 = (num1, num2) => num2 === 0 ? "Zero division error" : num1 / num2
-console.log(div3(3,2)) */
+// const div3 = (num1, num2) => num2 === 0 ? "Zero division error" : num1 / num2
+// console.log(div3(3,2))
 
-// result  = 1 + 2 + 3 + 4 + 5
+result  = 1 + 2 + 3 + 4 + 5
 
-/* function pascalNumber1(n) {
+function pascalNumber1(n) {
     let sum = 0;
     for (let i = 1; i <= n; i++) {
         //console.log(i)
@@ -86,7 +86,7 @@ function pascalNumber3(n) {
 
 // console.log(pascalNumber1(9));
 // console.log(pascalNumber2(9));
-console.log(pascalNumber3(5)); */
+console.log(pascalNumber3(5)); 
 
 /* function sum() {
     // console.log(arg)
@@ -278,38 +278,42 @@ console.log(cat.age);   */
 
 
 
-let num1 = 10;
-var num2 = 20;
-console.log('at the global scope');
-console.log({ num1, num2 });
-func1();
-console.log({ num1, num2 });
-// console.log({ num3, num4 });
+// let num1 = 10;
+// var num2 = 20;
+// console.log('at the global scope');
+// console.log({ num1, num2 });
+// func1();
+// console.log({ num1, num2 });
+// // console.log({ num3, num4 });
 
-// function declaration
-function func1() {
-  let num1 = 101;
-  let num2 = 102;
-  var num3 = 103;
-  console.log('..inside func1');
-  if (num1 < num2) {
-    console.log('inside if block');
-    let num1 = 201;
-    // var num2 = 205;
-    console.log({ num1, num2 });
-    // console.log({ num3, num4 });
-    // let num3 = 206;
-    var num4 = 204;
-    num1++;
-    num2++;
-    num3++;
-    num4++;
-    console.log({ num1, num2 });
-    console.log({ num3, num4 });
-  }
-  console.log('after if block');
-  num3++;
-  num4++;
-  console.log({ num1, num2 });
-  console.log({ num3, num4 });
-}
+// // function declaration
+// function func1() {
+//   let num1 = 101;
+//   let num2 = 102;
+//   var num3 = 103;
+//   console.log('..inside func1');
+//   if (num1 < num2) {
+//     console.log('inside if block');
+//     let num1 = 201;
+//     // var num2 = 205;
+//     console.log({ num1, num2 });
+//     // console.log({ num3, num4 });
+//     // let num3 = 206;
+//     var num4 = 204;
+//     num1++;
+//     num2++;
+//     num3++;
+//     num4++;
+//     console.log({ num1, num2 });
+//     console.log({ num3, num4 });
+//   }
+//   console.log('after if block');
+//   num3++;
+//   num4++;
+//   console.log({ num1, num2 });
+//   console.log({ num3, num4 });
+// }
+song = `Fight the Youth`;
+let score = 9;
+let highestScore = 10;
+let output = 'I like the song "' + song + '". I gave it a score of ' + (score/highestScore * 100) + '%.';
