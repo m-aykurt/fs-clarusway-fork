@@ -1,3 +1,5 @@
+var aa;
+console.log(aa);
 // console.log('Hello Clarusway');
 // console.info('some infor');
 // console.warn('some warning');
@@ -62,16 +64,16 @@
 // console.log(num1, num2);
 
 function func1() {
-  var myName = 'John';
-  console.log('from func1 ...', myName);
+  var myName = "John";
+  console.log("from func1 ...", myName);
   if (true) {
-    let herName = 'Daisy';
+    let herName = "Daisy";
     console.log(yourName, herName);
   }
   console.log(yourName);
   console.log(yourName, herName);
-  var yourName = 'Melih';
+  var yourName = "Melih";
 }
-//console.log('from func1 ...', myName);
+// console.log('from func1 ...', myName);
 
 func1();
