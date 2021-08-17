@@ -11,3 +11,5 @@ List of coding challenges within JavaScript workshop as follows;
 ### [JS-CC-004](./cc-004) : Email Validation
 
 ### [JS-CC-005](./cc-005) : Check Triangle
+
+### [JS-CC-006](./cc-006) : Perfect Numbers
