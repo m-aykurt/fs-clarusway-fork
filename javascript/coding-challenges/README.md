@@ -13,3 +13,7 @@ List of coding challenges within JavaScript workshop as follows;
 ### [JS-CC-005](./cc-005) : Check Triangle
 
 ### [JS-CC-006](./cc-006) : Perfect Numbers
+
+### [JS-CC-007](./cc-007) : Stopwatch
+
+### [JS-CC-008](./cc-008) : Sliding Window Maximum

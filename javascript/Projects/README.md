@@ -9,3 +9,5 @@ Javascript Workshop contains hands-on trainings and projects.
 - [003 - Ios Style Calculator](./003%20-%20Ios-Calculator%20(JS-03)/README.md)
 
 - [004 - Digital Clock](./004%20-%20Digital-Clock%20(JS-04)/README.md)
+
+- [005 - Hangman](./005%20-%20Hangman-game%20(JS-05)/README.md)
